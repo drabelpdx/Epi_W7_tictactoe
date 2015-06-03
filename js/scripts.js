@@ -38,23 +38,21 @@ Board.prototype.find = function(x,y) {
 }
 
 Board.prototype.turn = function(player) {
-    if (turnCount > 9) {
-      alert("Game ends in a tie.");
-    } else if (turnCount % 2 === 0) {
-      console.log("Player X's turn");
-
-    player marks soemthing
-      SPACEID.mark_by(player)
-      if (player.winCondition){
-        return player.mark + " has won!"
-      } else
-
-
-    } else if {
-      console.log("Player O's turn");
-      board.turn(player2);
-  }
-  space.mark_by(player)
+  //   if (turnCount > 9) {
+  //     alert("Game ends in a tie.");
+  //   } else if (turnCount % 2 === 0) {
+  //     console.log("Player X's turn");
+  //
+  //   //  player marks something
+  //   //   SPACEID.mark_by(player)
+  //     if (player.winCondition){
+  //       return player.mark + " has won!"
+  //
+  //   } else if {
+  //     console.log("Player O's turn");
+  //     board.turn(player2);
+  // }
+  // space.mark_by(player)
 }
 
 Board.prototype.winCondition = function(player) {
@@ -69,7 +67,6 @@ Board.prototype.winCondition = function(player) {
 
       return player.won = true;
   }
-}
 
   turnCounter++;
   console.log("End.");
@@ -81,36 +78,25 @@ function Game() {
   var player1 = new Player("X"), player2 = new Player("O");
 }
 
-
+//None of this functions yet!
 $(document).ready(function(){
 
   $("btn#newgame").submit(function(event) {
     event.preventDefault();
     var newGame = new Game();
 
-    $(".game").click(function() {
-      var square = document.getElementById()
-      player.mark_by(square);
-    })
+    $("#one").click(function() {
+      alert("You clicked on " + this);
+    });
 
-
-
+    // $("#game").click(function() {
+    //   var ??= game.children()
+    //   document.getElementById("game#li")
+    //   player.mark_by(square);
+    // })
 
 
   })
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
