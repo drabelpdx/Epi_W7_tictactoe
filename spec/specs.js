@@ -47,7 +47,8 @@ describe('Board', function() {
     testBoard.find(1,1).mark_by(testPlayer);
     testBoard.find(1,2).mark_by(testPlayer);
     testBoard.find(1,3).mark_by(testPlayer);
-    expect(testBoard.turn(testPlayer)).to.equal("X wins!");
+    testBoard.winCondition(testPlayer);
+    expect(testPlayer.won).to.equal(true);
   });
 
 });

@@ -1,23 +1,26 @@
-#game li {
+canvas {
+  background-color: #DDDDDD;
+  width: 150px;
+  border: 1px solid white;
   float: left;
-  padding: 10px;
-  list-style: none;
-  text-align: center;
-  margin: 20px;
-  color: #fff;
-  height: 60px;
-  line-height: 40px;
-  font-size: 40px;
-  color: #ccc;
+  opacity: 0.75;
 }
 
-
-
-#game {
-  float:left; padding:0; clear:both
+canvas.field {
+  height: 150px;
 }
 
-#row_2 {
-  border-style: solid
-  border-width: 4px;
+div.row {
+  width: 456px;
+  margin: 0 auto;
+}
+
+div#container {
+  width: 100%;
+}
+
+canvas#reset {
+  height: 50px;
+  margin-top: 30px;
+  margin-left: 152px;
 }
