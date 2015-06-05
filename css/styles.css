@@ -1,7 +1,8 @@
 canvas {
-  background-color: #DDDDDD;
+  background-color: #EEEEEE;
   width: 150px;
-  border: 1px solid white;
+  border: 5px solid white;
+  border-radius: 20px;
   float: left;
   opacity: 0.75;
 }
@@ -18,9 +19,11 @@ div.row {
 div#container {
   width: 100%;
 }
+h2{
+  text-align: center;
+}
 
-canvas#reset {
-  height: 50px;
-  margin-top: 30px;
-  margin-left: 152px;
+.buttons {
+  text-align: center;
+  align-self: center;
 }

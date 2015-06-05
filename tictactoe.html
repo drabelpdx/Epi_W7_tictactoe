@@ -10,8 +10,15 @@
   <body>
     <div class="container">
       <h2>Let's play Tic Tac Toe!</h2>
-      <button type="submit" id="newgame" class="btn btn-primary">New Game!</button>
-      <div class="row">
+    <div class="buttons">
+      <button type="submit" id="newGame" class="btn btn-primary">New Game!</button>
+      <button type="submit" id="reset" class="btn btn-warning">Reset!</button>
+      <div>
+      <span class="messages"></span>
+      </div>
+    </div>
+
+  <div class="row">
    <canvas class="field" id="1,1" width="150" height="150" token="None"></canvas>
    <canvas class="field" id="1,2" width="150" height="150" token="None"></canvas>
    <canvas class="field" id="1,3" width="150" height="150" token="None"></canvas>
@@ -26,10 +33,7 @@
    <canvas class="field" id="3,2" width="150" height="150" token="None"></canvas>
    <canvas class="field" id="3,3" width="150" height="150" token="None"></canvas>
  </div>
- <div class="row">
-   <canvas id="reset" width="150" height="50"></canvas>
- </div>
-    
+
     </div>
     </div>
   </body>
