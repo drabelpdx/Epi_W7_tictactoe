@@ -113,7 +113,6 @@ function drawCross(fieldId) {
 };
 
 
-
 $(document).ready(function(e) {
 
 var turn = 1
@@ -189,38 +188,3 @@ var turn = 1
    document.location.reload(true);
   });
 });
-
-
-
-
-// Board.prototype.turn = function(player) {
-//// turnCount % 2 === 0
-//   }
-
-// if (turnCount > 9) {
-//    alert("Game ends in a tie.");
-//  } else if (true) {
-// console.log("Player X's turn");
-
-
-    //    player
-    //   } else
-    //    console.log("Player O's turn");
-    //    $('li').click(function(e) {
-    //        var linker = this.id;
-    //        player.mark_by(linker);
-    //        alert(linker);
-    //    });
-    // //  else {}
-
-//     //  player marks something
-//     //   SPACEID.mark_by(player)
-//       if (player.winCondition){
-//         return player.mark + " has won!"
-//
-
-//       board.turn(player2);
-//   }
-//   space.mark_by(player)
-
-//  });
